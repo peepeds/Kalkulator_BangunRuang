@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_kubus"
+        android:icon="@drawable/outline_box_24"
+        android:title="@string/title_kubus" />
+
+    <item
+        android:id="@+id/navigation_bola"
+        android:icon="@drawable/ball"
+        android:title="@string/title_bola" />
+
+    <item
+        android:id="@+id/navigation_piramida"
+        android:icon="@drawable/pyramid"
+        android:title="@string/title_piramida" />
+
+</menu>

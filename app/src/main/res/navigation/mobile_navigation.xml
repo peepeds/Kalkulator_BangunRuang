@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_kubus">
+
+    <fragment
+        android:id="@+id/navigation_kubus"
+        android:name="com.example.uts_mobprog.ui.kubus.KubusFragment"
+        android:label="@string/title_kubus"
+        tools:layout="@layout/fragment_kubus" />
+
+    <fragment
+        android:id="@+id/navigation_bola"
+        android:name="com.example.uts_mobprog.ui.bola.BolaFragment"
+        android:label="@string/title_bola"
+        tools:layout="@layout/fragment_bola" />
+
+    <fragment
+        android:id="@+id/navigation_piramida"
+        android:name="com.example.uts_mobprog.ui.piramida.PiramidaFragment"
+        android:label="@string/title_piramida"
+        tools:layout="@layout/fragment_piramida" />
+</navigation>
